@@ -1,134 +1,134 @@
 body {
-    background-color: paleturquoise;
-    margin: 2%;
-    overflow: hidden;
+  background-color: paleturquoise;
+  margin: 2%;
+  overflow: hidden;
 }
 
 .main {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 h2 {
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
 }
 
 /* need to fix */
 #score-display {
-    position: absolute;
-    top: 0%;
-    right: 4%;
-    font-size: 6rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    user-select: none;
+  position: absolute;
+  top: 0%;
+  right: 4%;
+  font-size: 6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  user-select: none;
 }
 
 #score {
-    position: absolute;
-    top: 2%;
-    right: 4%;
+  position: absolute;
+  top: 1rem;
+  right: 4%;
 }
 
 /* High Score Title */
 #score-title {
-    position: absolute;
-    text-align: center;
-    top: 35%;
-    right: 4%;
-    font-size: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    user-select: none;
+  position: absolute;
+  text-align: center;
+  top: 0rem;
+  right: 4%;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  user-select: none;
 }
 
 /* High Score Number */
 #high-score {
-    position: absolute;
-    top: 50%;
-    right: 4%;
+  position: absolute;
+  top: 50%;
+  right: 4%;
 }
 
 /* Circle */
 #circle {
-    height: 200px;
-    width: 200px;
-    shape-outside: circle();
-    clip-path: circle();
-    margin: auto;
-    background-color: black;
+  height: 200px;
+  width: 200px;
+  shape-outside: circle();
+  clip-path: circle();
+  margin: auto;
+  background-color: black;
 }
 
 #circle:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #circle-content {
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    padding: 5% 0%;
-    user-select: none;
-    visibility: visible;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5% 0%;
+  user-select: none;
+  visibility: visible;
 }
 
 .extras {
-    position: absolute;
-    bottom: 2.5rem;
-    right: 3.25rem;
-    margin: 0;
-    padding: 0;
+  position: absolute;
+  bottom: 2.5rem;
+  right: 3.25rem;
+  margin: 0;
+  padding: 0;
 }
 
 .extras li {
-    list-style-type: none;
-    display: inline-block;
-    height: 3.25rem;
-    width: 3.25rem;
-    padding: 0.5rem;
+  list-style-type: none;
+  display: inline-block;
+  height: 3.25rem;
+  width: 3.25rem;
+  padding: 0.5rem;
 }
 
 .extras li :hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #info-popup {
-    /* Change to hidden when done */
-    visibility: hidden;
-    position: absolute;
-    margin: auto;
-    padding: 2%;
-    top: 25%;
-    right: 25%;
-    height: 50%;
-    width: 50%;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Change to hidden when done */
+  visibility: hidden;
+  position: absolute;
+  margin: auto;
+  padding: 2%;
+  top: 25%;
+  right: 25%;
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #info-popup h4 {
-    text-align: center;
-    margin-block-start: 0.75rem;
-    margin-block-end: 1.5rem;
-    font-size: 2rem;
+  text-align: center;
+  margin-block-start: 0.75rem;
+  margin-block-end: 1.5rem;
+  font-size: 2rem;
 }
 
 #info-popup #info-x {
-    position: absolute;
-    margin: 2%;
-    top: 2%;
-    right: 2%;
-    height: 2rem;
-    width: 2rem;
+  position: absolute;
+  margin: 2%;
+  top: 2%;
+  right: 2%;
+  height: 2rem;
+  width: 2rem;
 }
 
 #info-x:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #creator {
-    position: absolute;
-    font-weight: bold;
-    /* animation-iteration-count: infinite;
+  position: absolute;
+  font-weight: bold;
+  /* animation-iteration-count: infinite;
     animation: creator 5s ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -142,4 +142,3 @@ h2 {
     75% {color: blue;}
     100% {color: purple; left: 15rem;}
 } */
-
